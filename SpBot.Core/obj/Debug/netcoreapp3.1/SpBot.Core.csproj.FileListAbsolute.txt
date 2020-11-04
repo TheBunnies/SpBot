@@ -1,0 +1,10 @@
+D:\Projects\Visual Studio 2019\SpBot\SpBot.Core\obj\Debug\netcoreapp3.1\SpBot.Core.AssemblyInfoInputs.cache
+D:\Projects\Visual Studio 2019\SpBot\SpBot.Core\obj\Debug\netcoreapp3.1\SpBot.Core.AssemblyInfo.cs
+D:\Projects\Visual Studio 2019\SpBot\SpBot.Core\obj\Debug\netcoreapp3.1\SpBot.Core.csproj.CoreCompileInputs.cache
+D:\Projects\Visual Studio 2019\SpBot\SpBot.Core\bin\Debug\netcoreapp3.1\SpBot.Core.deps.json
+D:\Projects\Visual Studio 2019\SpBot\SpBot.Core\bin\Debug\netcoreapp3.1\SpBot.Core.dll
+D:\Projects\Visual Studio 2019\SpBot\SpBot.Core\bin\Debug\netcoreapp3.1\SpBot.Core.pdb
+D:\Projects\Visual Studio 2019\SpBot\SpBot.Core\obj\Debug\netcoreapp3.1\SpBot.Core.csproj.CopyComplete
+D:\Projects\Visual Studio 2019\SpBot\SpBot.Core\obj\Debug\netcoreapp3.1\SpBot.Core.dll
+D:\Projects\Visual Studio 2019\SpBot\SpBot.Core\obj\Debug\netcoreapp3.1\SpBot.Core.pdb
+D:\Projects\Visual Studio 2019\SpBot\SpBot.Core\obj\Debug\netcoreapp3.1\SpBot.Core.csprojAssemblyReference.cache
