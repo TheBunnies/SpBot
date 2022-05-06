@@ -2,7 +2,6 @@
 
 namespace SpBot.Core
 {
-    //Этот код принадлежит Алексею Уланову a.k.a. Ultra_Rabbit'у
     public sealed class BotConfiguration
     {
         [Required]

@@ -4,7 +4,6 @@ using System;
 
 namespace SpBot.Core
 {
-    //Этот код принадлежит Алексею Уланову a.k.a. Ultra_Rabbit'у
     public class JobFactory : IJobFactory
     {
         protected readonly IServiceProvider Container;

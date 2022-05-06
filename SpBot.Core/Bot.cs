@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 
 namespace SpBot.Core
 {
-    //Этот код принадлежит Алексею Уланову a.k.a. Ultra_Rabbit'у
     public sealed class Bot
     {
         public DiscordClient Client {get; private set;}

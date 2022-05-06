@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 
 namespace SpBot
 {
-    //Этот код принадлежит Алексею Уланову a.k.a. Ultra_Rabbit'у
     internal sealed class BotHostedService : IHostedService
     {
         private Bot _spBot;

@@ -3,7 +3,6 @@ using System.Threading.Tasks;
 
 namespace SpBot.Core.Jobs
 {
-    //Этот код принадлежит Алексею Уланову a.k.a. Ultra_Rabbit'у
     [DisallowConcurrentExecution]
     public class ServerInfoNotifierJob : IJob
     {

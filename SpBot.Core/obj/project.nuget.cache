@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ATC+Nwy30mye3lny/LdvObrgBZTCkCxpFzYhJONf4x1DyIDdyvCAO2Dfj3P/W3ZVZq2rlXfHWWXKKvDJI657Ng==",
+  "dgSpecHash": "e4r5frl8Sfor4XX9jPitiVe92dNMYxK1pscRfHc1VSAV+Ix1hduk3CBF8l6myadiKiy9bPZmC+TRdl9WgvLRSQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Visual Studio 2019\\SpBot\\SpBot.Core\\SpBot.Core.csproj",
+  "projectFilePath": "D:\\Projects\\C#\\SpBot\\SpBot.Core\\SpBot.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lucky\\.nuget\\packages\\dsharpplus\\4.0.0-nightly-00746\\dsharpplus.4.0.0-nightly-00746.nupkg.sha512",
-    "C:\\Users\\lucky\\.nuget\\packages\\dsharpplus.commandsnext\\4.0.0-nightly-00746\\dsharpplus.commandsnext.4.0.0-nightly-00746.nupkg.sha512",
+    "C:\\Users\\lucky\\.nuget\\packages\\dsharpplus\\4.0.0-rc1\\dsharpplus.4.0.0-rc1.nupkg.sha512",
+    "C:\\Users\\lucky\\.nuget\\packages\\dsharpplus.commandsnext\\4.0.0-rc1\\dsharpplus.commandsnext.4.0.0-rc1.nupkg.sha512",
     "C:\\Users\\lucky\\.nuget\\packages\\emzi0767.common\\2.2.2\\emzi0767.common.2.2.2.nupkg.sha512",
     "C:\\Users\\lucky\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.9\\microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",
     "C:\\Users\\lucky\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.7\\microsoft.extensions.dependencyinjection.3.1.7.nupkg.sha512",
@@ -90,7 +90,31 @@
     "C:\\Users\\lucky\\.nuget\\packages\\system.threading.threadpool\\4.3.0\\system.threading.threadpool.4.3.0.nupkg.sha512",
     "C:\\Users\\lucky\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\lucky\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\lucky\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\lucky\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\lucky\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\lucky\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\lucky\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "SpBot.Core depends on DSharpPlus (>= 4.0.0-nightly-00746) but DSharpPlus 4.0.0-nightly-00746 was not found. An approximate best match of DSharpPlus 4.0.0-rc1 was resolved.",
+      "libraryId": "DSharpPlus",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "SpBot.Core depends on DSharpPlus.CommandsNext (>= 4.0.0-nightly-00746) but DSharpPlus.CommandsNext 4.0.0-nightly-00746 was not found. An approximate best match of DSharpPlus.CommandsNext 4.0.0-rc1 was resolved.",
+      "libraryId": "DSharpPlus.CommandsNext",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

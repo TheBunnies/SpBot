@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 
 namespace SpBot.Core
 {
-    //Этот код принадлежит Алексею Уланову a.k.a. Ultra_Rabbit'у
     public sealed class ServerInfoNotifier : IServerInfoNotifier
     {
         private SpClient _spClient;

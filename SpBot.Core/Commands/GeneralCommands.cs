@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 
 namespace SpBot.Core.Commands
 {
-    //Этот код принадлежит Алексею Уланову a.k.a. Ultra_Rabbit'у
     internal sealed class GeneralCommands : BaseCommandModule
     {
         private SpClient _spClient;

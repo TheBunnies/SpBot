@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "DSharpPlus/4.0.0-nightly-00746": {
+      "DSharpPlus/4.0.0-rc1": {
         "type": "package",
         "dependencies": {
           "Emzi0767.Common": "2.2.2",
@@ -21,10 +21,10 @@
           "lib/netstandard2.0/DSharpPlus.dll": {}
         }
       },
-      "DSharpPlus.CommandsNext/4.0.0-nightly-00746": {
+      "DSharpPlus.CommandsNext/4.0.0-rc1": {
         "type": "package",
         "dependencies": {
-          "DSharpPlus": "4.0.0-nightly-00746",
+          "DSharpPlus": "4.0.0-rc1",
           "Microsoft.Extensions.DependencyInjection": "3.1.7"
         },
         "compile": {
@@ -1358,25 +1358,27 @@
     }
   },
   "libraries": {
-    "DSharpPlus/4.0.0-nightly-00746": {
-      "sha512": "S4WxC4or58O5/cvnv0W0Z4aReX/1FcNDHt103z2UAaS4Cj3i4f0hk/Kec29yhNC/mYm8VUCV0ULLlDKx/CJlkw==",
+    "DSharpPlus/4.0.0-rc1": {
+      "sha512": "uuOdv1IjXbPXzTYXL0f/cDcXVTAXfLLAgU/Bxb2GgGGLKqikdV1oc9AlFxix4cNZlOcj96nEq4ndzECEyN6MLg==",
       "type": "package",
-      "path": "dsharpplus/4.0.0-nightly-00746",
+      "path": "dsharpplus/4.0.0-rc1",
       "files": [
         ".nupkg.metadata",
-        "dsharpplus.4.0.0-nightly-00746.nupkg.sha512",
+        ".signature.p7s",
+        "dsharpplus.4.0.0-rc1.nupkg.sha512",
         "dsharpplus.nuspec",
         "lib/netstandard2.0/DSharpPlus.dll",
         "lib/netstandard2.0/DSharpPlus.xml"
       ]
     },
-    "DSharpPlus.CommandsNext/4.0.0-nightly-00746": {
-      "sha512": "8aE/HS497uNE4QhgFAHrUpzojyRuCBeIsTHJWpTpZQdQiopzthNww5gV7sBdgvBQCc7Qlvk6C3kP5CkPj1rsHA==",
+    "DSharpPlus.CommandsNext/4.0.0-rc1": {
+      "sha512": "aK3H+WgoA9Gwvkzl9mul7Va+jijA8ajOZ6s8mBLW9iCGAJjVl7DUxI256AFAS1YvGRjeR7Ar61fwq6z7daZp0w==",
       "type": "package",
-      "path": "dsharpplus.commandsnext/4.0.0-nightly-00746",
+      "path": "dsharpplus.commandsnext/4.0.0-rc1",
       "files": [
         ".nupkg.metadata",
-        "dsharpplus.commandsnext.4.0.0-nightly-00746.nupkg.sha512",
+        ".signature.p7s",
+        "dsharpplus.commandsnext.4.0.0-rc1.nupkg.sha512",
         "dsharpplus.commandsnext.nuspec",
         "lib/netstandard2.0/DSharpPlus.CommandsNext.dll",
         "lib/netstandard2.0/DSharpPlus.CommandsNext.xml"
@@ -4665,27 +4667,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Visual Studio 2019\\SpBot\\SpBot.Core\\SpBot.Core.csproj",
+      "projectUniqueName": "D:\\Projects\\C#\\SpBot\\SpBot.Core\\SpBot.Core.csproj",
       "projectName": "SpBot.Core",
-      "projectPath": "D:\\Projects\\Visual Studio 2019\\SpBot\\SpBot.Core\\SpBot.Core.csproj",
+      "projectPath": "D:\\Projects\\C#\\SpBot\\SpBot.Core\\SpBot.Core.csproj",
       "packagesPath": "C:\\Users\\lucky\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Visual Studio 2019\\SpBot\\SpBot.Core\\obj\\",
+      "outputPath": "D:\\Projects\\C#\\SpBot\\SpBot.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lucky\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\lucky\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.emzi0767.com/api/v3/index.json": {},
-        "https://www.myget.org/F/sixlabors/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -4697,6 +4696,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "DSharpPlus": {
             "target": "Package",
@@ -4729,13 +4729,49 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "SpBot.Core depends on DSharpPlus (>= 4.0.0-nightly-00746) but DSharpPlus 4.0.0-nightly-00746 was not found. An approximate best match of DSharpPlus 4.0.0-rc1 was resolved.",
+      "libraryId": "DSharpPlus",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "SpBot.Core depends on DSharpPlus.CommandsNext (>= 4.0.0-nightly-00746) but DSharpPlus.CommandsNext 4.0.0-nightly-00746 was not found. An approximate best match of DSharpPlus.CommandsNext 4.0.0-rc1 was resolved.",
+      "libraryId": "DSharpPlus.CommandsNext",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
